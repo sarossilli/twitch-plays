@@ -36,9 +36,6 @@ public class ChatService {
                 if (args[0].equalsIgnoreCase("register")){
                     System.out.println("REGISTERING " + event.getUser().getName());
                 }
-                else if(args[0].equalsIgnoreCase("bet")){
-                    int amt = 0;
-                }
             }
 
         }

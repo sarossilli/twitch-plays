@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+html, body {
+    background: #28254C;
+    font-family: "Ubuntu";
+}
+
+p {
+    display: block;
+    text-align: center;
+    position: relative;
+    font-family: Ubuntu;
+    font-size: larger;
+    color: aliceblue;
+}
+h2 {
+    display: block;
+    text-align: center;
+    position: relative;
+    font-family: Ubuntu;
+    font-size: x-large;
+    color: white;
+}
+.box{
+    width: 350px;
+    margin-top: 70px;
+    background: #332F63;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+    padding: 30px 50px;
+}
